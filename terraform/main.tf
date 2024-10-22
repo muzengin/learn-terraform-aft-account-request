@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
+    AccountEmail              = "aws.netz.sandbox@enercity-netz.de"
+    AccountName               = "DevopsSandbox"
+    ManagedOrganizationalUnit = "CentralInfrastructure"
+    SSOUserEmail              = "awsusr9287@enercity-netz.de"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
